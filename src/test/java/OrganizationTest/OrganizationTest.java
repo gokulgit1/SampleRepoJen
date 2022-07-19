@@ -7,18 +7,18 @@ import org.testng.annotations.Test;
 
 public class OrganizationTest 
 {
-	WebDriver driver;
-	@Test(groups="regression")
+	//WebDriver driver;
+	@Test
 	public void createOrg()
 	{
-		String value = System.getProperty("url");
+		/*String value = System.getProperty("url");
 		String browser = System.getProperty("browser");
 		if(browser=="chrome")
 			driver=new ChromeDriver();
 		else if(browser=="FireFox")
 			driver=new FirefoxDriver();
-		driver.get(value);
+		driver.get(value);*/
 		System.out.println("sucessfully created");
-		driver.close();
+		//driver.close();
 	}
 }

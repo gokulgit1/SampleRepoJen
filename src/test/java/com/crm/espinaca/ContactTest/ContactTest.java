@@ -7,24 +7,24 @@ import org.testng.annotations.Test;
 
 public class ContactTest
 {
-	WebDriver driver ;
-	@Test(groups="smoke")
+	//WebDriver driver ;
+	@Test
 	public void createContact()
 	{
-		driver=new FirefoxDriver();
+		//driver=new FirefoxDriver();
 		//String browser = System.getProperty("Browser");
 		//System.out.println(browser);
 		//String url = System.getProperty("URL");
 		//System.out.println(url);		
 		System.out.println("contact created successfully");
-		driver.close();
+		//driver.close();
 	}
 	@Test(groups="regression")
 	public void createContactandDelete()
 	{
-		driver=new ChromeDriver();
+		//driver=new ChromeDriver();
 		System.out.println("successfully deleted");
-		driver.close();
+		//driver.close();
 	}
 }
 
