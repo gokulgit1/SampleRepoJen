@@ -24,6 +24,7 @@ public class ContactTest
 	{
 		//driver=new ChromeDriver();
 		System.out.println("successfully deleted");
+		System.out.println("Gokul");
 		//driver.close();
 	}
 }
