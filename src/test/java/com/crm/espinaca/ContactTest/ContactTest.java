@@ -12,10 +12,10 @@ public class ContactTest
 	public void createContact()
 	{
 		//driver=new FirefoxDriver();
-		//String browser = System.getProperty("Browser");
-		//System.out.println(browser);
-		//String url = System.getProperty("URL");
-		//System.out.println(url);		
+		String browser = System.getProperty("Browser");
+		System.out.println(browser);
+		String url = System.getProperty("URL");
+		System.out.println(url);		
 		System.out.println("contact created successfully");
 		//driver.close();
 	}
