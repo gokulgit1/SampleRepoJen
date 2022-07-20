@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class OrganizationTest 
 {
 	//WebDriver driver;
-	@Test
+	@Test(groups="regression")
 	public void createOrg()
 	{
 		/*String value = System.getProperty("url");

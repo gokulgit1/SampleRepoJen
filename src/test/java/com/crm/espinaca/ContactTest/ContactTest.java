@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class ContactTest
 {
 	//WebDriver driver ;
-	@Test
+	@Test(groups="smoke")
 	public void createContact()
 	{
 		//driver=new FirefoxDriver();
